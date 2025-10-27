@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لحظة سكون كافيه</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      background-color: #f8f5f0;
+      color: #4a2c2a;
+      scroll-behavior: smooth;
+    }
+
+    h2 {
+      color: #3e2723;
+    }
+
+  
+    .navbar {
+      background-color: #3e2723 !important;
+    }
+    .navbar-brand, .nav-link {
+      color: #d1a054 !important;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      color: #fff !important;
+    }
+
+  
+    .menu-item {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .menu-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .menu-item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-bottom: 3px solid #d1a054;
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: #d1a054;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">☕ لحظة سكون</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="#special">عرض اليوم</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">القائمة</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">آراء الزبائن</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reservation">احجز طاولتك</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="about" class="py-5 mt-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-3">من نحن</h2>
+      <p class="lead mx-auto" style="max-width: 600px;">
+        في كافيه لحظة سكون نقدم لك تجربة فريدة تجمع بين المذاق الأصيل للقهوة  
+        واللمسة الحديثة للأصناف العالمية. استمتع بأجواء دافئة وراحة لا مثيل لها ☕
+      </p>
+    </div>
+  </section>
+
+
+  <section id="special" class="py-5 text-center bg-white">
+    <div class="container">
+      <h2 class="mb-4">عرض اليوم ✨</h2>
+      <div class="card mx-auto shadow" style="max-width: 400px; border: none;">
+        <img src="لاتيه.jpg" class="card-img-top" alt="عرض اليوم">
+        <div class="card-body">
+          <h5 class="card-title text-warning fw-bold">لاتيه الفانيلا</h5>
+          <p class="card-text">احصل على خصم 20% عند طلب لاتيه الفانيلا اليوم فقط!</p>
+          <a href="#menu" class="btn btn-warning text-dark fw-bold">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="menu" class="py-5 text-center" style="background-color:#f1e2d0;">
+    <div class="container">
+      <h2 class="mb-4">قائمة الطعام</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4 col-sm-6">
+          <div class="menu-item">
+            <img src="تركي.jpg" alt="قهوة تركية">
+            <h3>قهوة تركية</h3>
+            <p>15 ريال</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="menu-item">
+            <img src="كابتشينو.jpg" alt="كابتشينو">
+            <h3>كابتشينو</h3>
+            <p>18 ريال</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="menu-item">
+            <img src="لاتيه.jpg" alt="لاتيه">
+            <h3>لاتيه</h3>
+            <p>20 ريال</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="menu-item">
+            <img src="شوكلا.jpg" alt="كيكة الشوكولاتة">
+            <h3>كيكة الشوكولاتة</h3>
+            <p>22 ريال</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="menu-item">
+            <img src="سباستيان.jpg" alt="سان سباستيان">
+            <h3>سان سباستيان</h3>
+            <p>10 ريال</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="reviews" class="bg-white py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">آراء الزبائن 💬</h2>
+
+      <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="lead">“أجمل كافيه في الرياض! القهوة لذيذة والأجواء مريحة جدًا.”</p>
+            <h6 class="text-warning">- سارة العتيبي</h6>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">“الكيك خرافي! أنصح الجميع بكيكة الشوكولاتة.”</p>
+            <h6 class="text-warning">- محمد السالم</h6>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">“تصميم المكان راقي والخدمة ممتازة.”</p>
+            <h6 class="text-warning">- نورة القحطاني</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="reservation" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="mb-4">احجز طاولتك الآن 📅</h2>
+      <form class="mx-auto" style="max-width: 400px;">
+        <div class="mb-3">
+          <label class="form-label">الاسم الكامل</label>
+          <input type="text" class="form-control" placeholder="اكتب اسمك">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">رقم الجوال</label>
+          <input type="tel" class="form-control" placeholder="05xxxxxxxx">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">تاريخ الحجز</label>
+          <input type="date" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-warning text-dark fw-bold w-100">إرسال الحجز</button>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer id="contact">
+    <div class="container">
+      <p class="mb-1">📍 الرياض - حي الورد | ☎️ 050-123-4567 | 📧 info@lahzat-sukoon.sa</p>
+      <small>© 2025 لحظة سكون كافيه | جميع الحقوق محفوظة</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
